@@ -2,7 +2,7 @@ import { resetHardhatContext } from "hardhat/plugins-testing";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 import path from "path";
 
-declare module "mocha" {
+declare module  
   interface Context {
     hre: HardhatRuntimeEnvironment;
   }
